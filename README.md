@@ -10,6 +10,9 @@ React native biometrics is a simple bridge to native iOS and Android keystore ma
 | `>= 2.0.0`                        | `>= 0.60`                     |
 | `<= 1.7.0`                        | `<= 0.59.x`                   |
 
+## Note
+ - If you are using React Native version 60, you will need change the platform version in react-native-biometrics.podspec to version 9.0 so that you can successfully run pod install without verion errors.
+
 ## Getting started
 
 using either Yarn:
